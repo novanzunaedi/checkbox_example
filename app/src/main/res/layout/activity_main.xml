@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cb_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android" />
+
+    <CheckBox
+        android:id="@+id/cb_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/cb_opencv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenCV" />
+
+    <Button
+        android:id="@+id/b_clickhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here" />
+
+</LinearLayout>
